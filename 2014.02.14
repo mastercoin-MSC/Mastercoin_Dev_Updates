@@ -1,0 +1,20 @@
+Mastercoin Weekly Dev Update, Feb 14th, 2014
+
+
+Zathras
+
+Grazcoin
+
+Grimentz
+
+Omniwallet team
+Began initial spike-out of the UI: http://i.imgur.com/nTin7jy.png
+Uploaded and sent out VM for devs: https://www.dropbox.com/sh/lq59x1vev9a6xlx/fojscL_A9B
+Developed a UI spec and are taking review considerations:
+https://docs.google.com/a/engine.co/document/d/1oZVOIzPHQ4y9iSD157SD17DLHc9uu7xMpmzo5Ukiaww/edit
+
+Marv
+I made all the changes to the spec that I was on the hook for, and updated the doc version to 0.4. Awaiting confirmation from devs that they have read it, plus any issues that need attention. Zathras to add Appendix E about cost of MSC Protocol transactions, and update Appendix A to prohibit multi-sig inputs for this version. Filling out test requirements for initial tx’s (0, 20, 21, 22, 50), then work with devs/testers to prepare client-specific test procedures based on test reqs. Working w/ omniwallet team on UI/UX.
+
+
+Source: https://docs.google.com/document/d/1eFl5S4YFXdU3gYCxQmi0I3UO6Uy8DIFmechI6ze_aAs/edit
