@@ -1,0 +1,17 @@
+Peter Todd:
+
+1) Attended the Financial Crypt 2014 conference last week; lots of good discussion
+   and connecting with the academics researching decentralized consensus.
+   Notable highlights of the discussions: scalability/miner incentives w/
+   selfish mining team, and proof-of-publication as part of decentralized
+   reputation and reviews. (see #bitcoin-dev discussion today, 2014-03-13 with
+   shesek for a quick summary; should writeup a more formal report)
+
+2) Omniwallet login protocol review; related: writing general report on
+   exchange security, as well as another one on proof-of-reserves.
+
+3) Bitcoin dev work: Wrote pull-req's #3860, #3861, #3843, related to testing
+   and multisig transactions; removes limits on multisig usage.
+
+4) Finally, see my "how am I contributing?" post:
+   http://mastercointalk.org/index.php?topic=155.msg466#msg466
