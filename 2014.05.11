@@ -1,0 +1,254 @@
+Mastercoin Weekly Dev Update for May 8, 2014
+
+Adam:
+  Omniwallet - 2 week sprints/milestones
+     Milestone 0.9 underway (several PR’s merged already and more on the way)
+      Team is reviewing/prioritizing issues
+Marv:
+  the Omniwallet team is targeting high value issues now
+  fleshing out Omniwallet development themes:  https://docs.google.com/a/mastercoin.org/document/d/1_mKcZR_LJ_K-mL7jFUEbqVtvrnYS9KtI009stCdK1Jc/edit#
+
+Shannon:
+   Security Bounty: Report
+Faiz:
+Ongoing: Omniwallet sprint
+upcoming bugfixes and improvements
+ui fixes and discussions with Yuval 
+    msc-tools 
+TMSC consensus&display offer cons bug (56/53)
+PR140 merged/deployed in prod, small diffs in TMSC only now
+
+
+Mastercoin Weekly Dev Update for May 1, 2014
+Adam:
+  Maidsafe automated token distribution system finsihed last week. We helped them set it up and validate data/monitor the running it. 
+  Masterxchange is testing tools to send msafe, they should be announcing timeframes to release soon. 
+
+Faiz:
+  P2SH Invalidation bug affected us from last week, now we invalidate sends to P2SH addresses within mastercoin-tools.
+  
+
+
+
+
+Mastercoin Weekly Dev Update for April 24, 2014
+
+
+Adam:
+   Maidsafe automated token distribution system in testing and should be live this week
+   Omniwallet: New hosting home
+
+Faiz:
+  Maidsafe launch planning and execution!
+
+Mastercoin Weekly Dev Update for April 17, 2014
+
+Omniwallet team:
+            Delivery of 0.5 Milestone last week, 0.6 Milestone tomorrow, updates to support smart property release expected over the weekend and next week.
+            Smart Property Display, Purchase, Trading & Validation
+	Consensus work continuing.
+	Bugfixes & UI improvements
+		Significant speed improvements
+Adam:
+    Dev emails now visible in forums. 
+    Testing smart property issuance scripts working so far.
+
+
+
+Mastercoin Weekly Dev Update for April 3, 2014
+
+Zathras
+	Full SP support in library (SP_Experimental branch), allows encoding and decoding of SP transactions, parsing, identification, data structures/classes etc.
+First state processing engine for SP draft
+	
+Adam
+    Mastercoin tools installer moved to organization repo  
+       (https://github.com/mastercoin-MSC/install-msc)
+    Also updated to use consolidated official mastercoin-tools release on github 
+    Omniwallet one click installer (also on org repo)
+      https://github.com/mastercoin-MSC/install-omni
+
+Shannon
+	Launched the crowdcurity program
+	Triaged all incoming issues and created private Github Security issues
+	Testing Zendesk ticket submission system
+
+Mastercoin Weekly Dev Update for March 27, 2014
+
+Omniwallet team:
+            Delivery of 0.3 Milestone
+            Smart Property UI/Issuance
+	Bugfixes & UI improvements
+Adam: Exchange integration documentation and utilities being updated/tweaked as exchanges start to use/work with them. Got some good feedback already from masterxchange
+
+Marv:
+	* spec Smart Property updates/clarifications, need close review   https://github.com/mastercoin-MSC/spec/pull/97
+	* more Omni UI & fn’ality testing
+	* to do: state diagrams, test procs for Smart Property tx’s
+
+Mastercoin Weekly Dev Update for March 20, 2014
+
+Zathras : Ongoing improvements to the various Masterchest stacks:
+	    * Numerous bugfixes
+	    * Performance optimizations in transaction processing
+               * Various UI improvements
+              For full details on what’s changed in alpha 0.3c please see the commit when
+   it goes up later today.
+Adam: exchange integration documentation and utilities are in final review/testing
+Omniwallet Team
+            Delivery of 0.2 milestone
+	Security Updates
+Critical Bugfixes
+
+
+
+
+
+Mastercoin Weekly Dev Update for March 13, 2014
+J.R.: dEX goes live at block #290630! Everyone should be testing!
+
+Omniwallet Team
+	Reworked login & security.
+	Increased support for DeX.
+	Beginning to clean up UI and address bugs reported in github issue tracker.
+
+
+
+
+
+Mastercoin Weekly Dev Update for March 6, 2014
+
+Omniwallet Team
+	Reworking login & security.
+	Improvements to sending reliability.
+            Reworking trade page 
+            Develop a test plan with regards to UI and functionality
+J.R.: Sorry Ryan - the team is just totally slammed right now. Please at least mention Zathras’ new  MasterChest wallet release, which now supports distributed exchange of Test MSC vs BTC. Also, his wallet now comes with a pre-seeded database of MSC transactions, so it shouldn’t take hours to sync up anymore. Bitoy’s MyMastercoins wallet has also been updated with numerous bugfixes. The main message needs to be that distributed exchange is testable on those platforms as well as on demo.masterchain.info, and we need people trying out them and Omniwallet. Please give our apologies to the readers of the dev update. With so many people helping with the hack-a-thon and racing towards the dEX deadline, it’s really hard to get coherent updates from everyone.
+
+Mastercoin Weekly Dev Update for Feb 28th, 2014
+
+Marv
+Test reqs for Simple Send, Sell MSC for BTC, Purchase MSC with BTC ready for devs and testers to tailor for each client
+Working on test results capture with Adam using Google forms
+Informal omniwallet testing
+More spec work with J.R., Craig, Peter
+
+Adam
+Continuing to try and work with the various exchanges (anxpro, vaultofsatoshi,bitfinex, holytransaction) to get Mastercoin listed. Several exchanges have encountered delays/slowdowns due to the bitcoin industry over the past few weeks. Also have been working with Marv to get a MSC Client test result reporting form built up and made available for testers to report their findings. 
+
+J.R.
+Tons of work on the spec, especially in regards to Smart Property. Most important change is the addition of kickstarter-style fundraisers modeled after the Mastercoin fundraiser, where the number of property tokens created are in proportion to the amount of funds raised from investors. The spec for Smart Property is now ready to be coded (pull request #52 has been merged to the master spec). Also streamlined our $100k/month milestone bounty process to use Google Forms for collecting work summaries and peer evaluations.
+
+Zathras
+* Released first public alpha of the wallet (sans DEx module)
+* Large number of bugfixes across library, wallet and engine
+* Consensus system fixed
+* Rewriting DEx state processing to accommodate all recent changes/clarifications
+* Worth mentioning adding Appendix E perhaps, though not specifically dev related
+
+Peter
+Continuing on tree-chains, spec work, testing. Updated python-bitcoinlib with more functionality; would be useful to use it to give an example of making up blockchains for use w/ testnet/regtest for unit testing confirmation and reorg related behavior. (also required for my obligations to Litecoin re: pruning)
+Will be attending the Financial Crypto Conference March 3-7th
+
+Omniwallet Team
+New omniwallet release tomorrow, including:
+Early trading interface
+Revised wallet display & address details
+account creation by email address
+backend wallet persistence
+UI/UX improvements to OW Trade/History pages
+Merged History pages, Trade pages
+Transaction Sign/Send implemented
+Trade History page, updates to Offers data API endpoint
+
+
+Mastercoin Weekly Dev Update, Feb 20th, 2014
+Maran
+Did nothing, sick :(
+
+J.R.
+Serious set of spec updates aimed at our upcoming Smart Property feature. Half of the dev MSC we owe people distributed (other half coming soon). Used Zathras’ wallet for this, which worked great.
+
+Zathras
+This is J.R. I know Zathras is finishing up his last day of work and probably won’t be able to post an update. I know that his first order of business on Monday (his first full-time day with us) will be to update his github repo and get a version of his wallet posted for public testing!
+
+Grazcoin
+
+Grimentz
+
+Omniwallet team
+Internal release of basic wallet capability tomorrow (2/21).
+Login & Trading interfaces slated for next week.
+
+Marv
+Test reqs done for tx 0 - Simple Send, 20 - Sell Coins for Bitcoins (currency trade offer)
+I plan to complete test reqs for tx 22, 21, 50 by COB tomorrow, then work with devs/testers to prepare client-specific test procedures based on test reqs. Working w/ omniwallet team on UI/UX.
+Talking to Crowdcurity.com about crowd sourced testing
+Reviewed JR’s PR #52 for the spec
+Introduced a few team members to Sococo, more tomorrow
+
+Peter
+
+In addition to the usual advisory role items I’ve started work on a paper for my “Tree Chains” idea to make blockchains more scalable via sharding the transaction space so that no one node or miner needs to process the entire blockchain. You can follow progress at http://github.com/petertodd/tree-chains-paper
+
+-----
+
+Mastercoin Weekly Dev Update, Feb 7th, 2014
+
+
+Zathras
+Masterchest stacks:
+	* Continuing testing & bug hunting in preparation for wallet release
+	* Consensus system stability fixes
+	* Transactions API added to Masterchest.info
+Documentation:
+	* Authored Spec Appendix E - Understanding the cost of Master Protocol messages
+
+Grazcoin
+
+Grimentz
+
+Tachikoma
+
+Mastercoind
+We have created the first database layer for Mastercoind. It's a LevelDB layer that has two uses after this week.
+We save the raw Bitcoin transactions that have references to Exodus which get from our full validating node and save those in raw format by encoding them to binary streams. We added a feature so that we can give a flag to mastercoind to playback this raw data and reparse all transactions without needing to resync the whole blockchain.
+We also made a second database this week to use as super fast balance lookup. The way the initial version will work is that there is lightweight balance ledger that holds all adresses as keys and their matching balances as values in the form of a hashmap: {1: 39, 2: 393}. In the future more currency ids can be easily added here.
+We added support to decode Simple Sends, next to the support we already had for Fundraiser decoding
+Balance is correctly calculated for both Fundraiser and Simple Send transactions.
+
+We will have a very alpha release out hopefully around the 21st of February, with focus purely on a Simple Send read only balance.
+
+cmlacy & omniwallet crew:
+We have stage 1 features complete:  (https://github.com/mastercoin-MSC/omniwallet/tree/master/design#stage-1-features)
+We are pulling together a VM for ANX.hk and others, waiting on write access to MSC dropbox.
+Stage 2 deadline is the 15th of Feb (https://github.com/mastercoin-MSC/omniwallet/tree/master/design#stage-2-features)
+Demo server is running at https://omniwallet.labs.engine.co - as the project develops, you can try it out there.
+POST endpoints are documented: https://github.com/curtislacy/omniwallet/blob/Document-API/README.md#api
+UI improvements and more incoming
+
+technical links:
+VM script: https://github.com/curtislacy/msc-exchange-scripts/pull/2
+VM script: https://github.com/curtislacy/msc-exchange-scripts/pull/1
+offers endpoint: https://github.com/curtislacy/mastercoin-tools/pull/4
+API refactor: https://github.com/mastercoin-MSC/omniwallet/pull/29
+
+Marv
+I made a lot of updates to the spec - formatting, transaction descriptions, versioning. These will be broken out into separate PRs. Also, see JR’s note below. Got a lot of questions answered and resolved several issues.
+
+JR
+We hashed out a lot of spec issues for future features in a very productive conference call between Craig, Marv, Peter, and myself. I have several spec changes (affecting future features) to make, and I’m trying to get a big distribution of dev MSC ready to go out the door to all previous bounty winners. I also designed an extremely low-rent explainer video presentation I hope to record soon to hold us over until we have something more professional.
+
+Peter
+
+Bitoy
+
+Working on mymastercoins wallet v 2
+Using bitcoind.exe -daemon
+
+Allow users to import private keys
+
+
+
+
+
