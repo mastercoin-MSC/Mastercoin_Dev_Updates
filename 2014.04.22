@@ -1,0 +1,9 @@
+Peter Todd:
+
+1) Replace-by-fee: Spent the large majority of my time taking advantage of the
+   Bitundo service's launch to write and deploy replace-by-fee, study the
+   existing dangers of zeroconf transactions, and finally ensure that Mike
+   Hearn's coinbase blacklisting/coinbase reallocation proposals were
+   adequately rebutted.
+
+2) Umm, I'm not actually sure I did anything else. :)

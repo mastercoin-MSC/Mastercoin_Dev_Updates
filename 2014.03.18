@@ -1,0 +1,12 @@
+Peter Todd:
+
+1) Omniwallet code-signing - ongoing effort to get people signing the code.
+   Also, congrats!
+
+2) Tree-chains - more work actually writing up the paper. Also spent some time
+   studying the recent chain-to-chain fund transfer stuff being worked on by
+   gmaxwell and many others.
+
+3) Bitcoin dev work: released python-bitcoinlib v0.1, BIPs work,
+   OP_CHECKLOCKTIMEVERIFY discussion. (the latter could be used in the future
+   to lock a txout until some time is reached)
